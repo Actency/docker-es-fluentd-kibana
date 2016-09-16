@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 ENV\
-	ES_VER=2.4.0 \ # Elasticsearch
-	KB_VER=4.6.1 # Kibana
+	ES_VER=2.4.0 \
+	KB_VER=4.6.1
 RUN\
 	apt-get update &&\
 	apt-get install -y vim curl wget nodejs default-jdk monit lsof ntp &&\
